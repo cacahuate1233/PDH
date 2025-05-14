@@ -1,30 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mi Página Retro</title>
+  <title>Cacahuate Paradise</title>
   <style>
     body {
-      background: #000080;
-      color: yellow;
+      background-image: url('https://www.animatedimages.org/data/media/562/animated-forest-image-0010.gif');
+      background-repeat: repeat;
+      background-attachment: fixed;
+      color: #FFFF00;
       font-family: "Comic Sans MS", cursive, sans-serif;
       text-align: center;
     }
+
     h1 {
-      text-shadow: 2px 2px #FF0000;
+      font-size: 48px;
+      text-shadow: 2px 2px #FF00FF;
+      margin-top: 30px;
     }
+
     .blink {
       animation: blinker 1s linear infinite;
     }
+
     @keyframes blinker {
-      50% { opacity: 0; }
+      50% {
+        opacity: 0;
+      }
+    }
+
+    .beetle {
+      width: 60px;
+      margin: 10px;
+    }
+
+    .gif-row {
+      margin-top: 20px;
+    }
+
+    .border {
+      border: 5px ridge lime;
+      padding: 20px;
+      background-color: rgba(0,0,0,0.5);
     }
   </style>
 </head>
 <body>
-  <h1>¡Bienvenido a mi sitio web 1999!</h1>
-  <marquee behavior="alternate"><img src="https://media.giphy.com/media/l0HUqsz2jdQYElRm0/giphy.gif" alt="gif" /></marquee>
-  <p class="blink">¡Página en construcción!</p>
-  <img src="https://www.animatedimages.org/data/media/175/animated-under-construction-image-0016.gif" alt="en construcción">
-  <p><a href="mailto:yo@example.com">Contáctame por correo</a></p>
+  <div class="border">
+    <h1>🌰 Cacahuate Paradise 🌰</h1>
+
+    <marquee behavior="alternate" direction="left" scrollamount="10">
+      <img src="https://i.gifer.com/8KPb.gif" class="beetle" alt="escarabajo">
+      <b>¡Bienvenido a la web más escarabajosa del bosque!</b>
+      <img src="https://i.gifer.com/8KPb.gif" class="beetle" alt="escarabajo">
+    </marquee>
+
+    <p class="blink">⚠️ ¡Sitio en construcción desde 1999! ⚠️</p>
+
+    <img src="https://www.animatedimages.org/data/media/175/animated-under-construction-image-0016.gif" alt="Under construction">
+
+    <div class="gif-row">
+      <img src="https://i.gifer.com/8KPb.gif" class="beetle" alt="escarabajo 1">
+      <img src="https://i.gifer.com/8KPb.gif" class="beetle" alt="escarabajo 2">
+      <img src="https://i.gifer.com/8KPb.gif" class="beetle" alt="escarabajo 3">
+    </div>
+
+    <p><a href="mailto:cacahuate@geocities.com">Contáctanos por correo (versión Hotmail)</a></p>
+  </div>
 </body>
 </html>
